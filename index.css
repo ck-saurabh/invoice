@@ -1,0 +1,10 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+@page {
+  margin: 0.3cm 0.2cm;
+  size: A4;
+  padding: 10px;
+}

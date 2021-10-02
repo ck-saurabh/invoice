@@ -335,23 +335,4 @@
       </div>
     </div>
   </body>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.2.61/jspdf.debug.js"></script>
-  <script>
-    setTimeout(() => {
-      var doc = new jsPDF("portrait", "pt", "a4", true);
-      var elementHandler = {
-        "#ignorePDF": function (element, renderer) {
-          return true;
-        },
-      };
-      doc.fromHTML(document.getElementById("top-content"), 15, 15, {
-        width: 1000,
-        elementHandlers: elementHandler,
-      });
-
-      setTimeout(function () {
-        doc.save("demo.pdf");
-      }, 2000);
-    }, 5000);
-  </script>
 </html>

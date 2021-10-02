@@ -1,5 +1,5 @@
 {
-  "name": "Invoice",
+  "name": "invoice",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "html-pdf": "^3.0.1",
-    "jspdf": "^2.4.0"
+    "html2pdf.js": "^0.10.1",
+    "html-pdf-node": "^1.0.7"
   }
 }
